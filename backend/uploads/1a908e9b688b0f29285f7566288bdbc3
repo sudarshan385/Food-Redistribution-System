@@ -1,0 +1,5 @@
+food_name,category,quantity,expiry_date,storage_condition
+Rice,Cooked Food,50,2026-08-01,Room Temperature
+Milk,Dairy,20,2026-07-30,Refrigerated
+Bread,Bakery,30,2026-08-02,Room Temperature
+Vegetables,Vegetables,15,2026-07-29,Cold Storage
