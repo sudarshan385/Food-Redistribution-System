@@ -13,6 +13,7 @@ ai-service/.venv/
 ai-service/venv/
 ai-service/venv-ai/
 ai-service/venv-lstm/
+ai-service/.env
 
 # Python
 __pycache__/
