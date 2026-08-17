@@ -1,0 +1,126 @@
+date,food_id,food_name,category,quantity_wasted,reason
+2025-08-02,2,Chapati,Bakery,9,Overproduction
+2025-08-03,1,Rice,Grains,1,Unsold
+2025-08-05,6,Milk,Dairy,10,Damaged
+2025-08-06,5,Bread,Bakery,4,Damaged
+2025-08-11,6,Milk,Dairy,6,Overproduction
+2025-08-12,3,Vegetable Curry,Cooked Food,5,Unsold
+2025-08-20,3,Vegetable Curry,Cooked Food,4,Expired
+2025-08-21,8,Pulao,Prepared Food,2,Damaged
+2025-08-23,1,Rice,Grains,7,Expired
+2025-08-25,5,Bread,Bakery,8,Expired
+2025-08-27,6,Milk,Dairy,6,Damaged
+2025-08-28,7,Curd,Dairy,1,Damaged
+2025-08-31,3,Vegetable Curry,Cooked Food,7,Damaged
+2025-09-07,3,Vegetable Curry,Cooked Food,7,Unsold
+2025-09-14,6,Milk,Dairy,4,Damaged
+2025-09-15,5,Bread,Bakery,5,Overproduction
+2025-09-16,8,Pulao,Prepared Food,7,Damaged
+2025-09-20,1,Rice,Grains,3,Unsold
+2025-09-24,3,Vegetable Curry,Cooked Food,4,Expired
+2025-09-25,8,Pulao,Prepared Food,5,Expired
+2025-09-26,7,Curd,Dairy,5,Expired
+2025-09-27,3,Vegetable Curry,Cooked Food,1,Overproduction
+2025-09-28,4,Dal,Cooked Food,6,Damaged
+2025-09-30,3,Vegetable Curry,Cooked Food,1,Expired
+2025-10-03,8,Pulao,Prepared Food,4,Damaged
+2025-10-05,3,Vegetable Curry,Cooked Food,5,Overproduction
+2025-10-11,6,Milk,Dairy,8,Unsold
+2025-10-15,5,Bread,Bakery,1,Expired
+2025-10-18,5,Bread,Bakery,8,Expired
+2025-10-22,7,Curd,Dairy,3,Unsold
+2025-10-25,7,Curd,Dairy,4,Unsold
+2025-10-26,7,Curd,Dairy,4,Unsold
+2025-10-27,7,Curd,Dairy,6,Unsold
+2025-11-01,5,Bread,Bakery,7,Unsold
+2025-11-03,5,Bread,Bakery,2,Overproduction
+2025-11-05,8,Pulao,Prepared Food,2,Damaged
+2025-11-06,1,Rice,Grains,9,Expired
+2025-11-07,2,Chapati,Bakery,5,Damaged
+2025-11-08,8,Pulao,Prepared Food,6,Expired
+2025-11-09,3,Vegetable Curry,Cooked Food,1,Overproduction
+2025-11-10,7,Curd,Dairy,3,Overproduction
+2025-11-14,3,Vegetable Curry,Cooked Food,1,Damaged
+2025-11-16,8,Pulao,Prepared Food,2,Unsold
+2025-11-18,7,Curd,Dairy,1,Expired
+2025-11-23,1,Rice,Grains,4,Overproduction
+2025-11-25,4,Dal,Cooked Food,4,Overproduction
+2025-11-27,6,Milk,Dairy,3,Expired
+2025-11-30,8,Pulao,Prepared Food,6,Damaged
+2025-12-01,1,Rice,Grains,4,Expired
+2025-12-02,7,Curd,Dairy,3,Expired
+2025-12-03,5,Bread,Bakery,2,Overproduction
+2025-12-05,1,Rice,Grains,8,Unsold
+2025-12-07,3,Vegetable Curry,Cooked Food,4,Expired
+2025-12-09,1,Rice,Grains,1,Damaged
+2025-12-13,4,Dal,Cooked Food,3,Damaged
+2025-12-16,7,Curd,Dairy,3,Unsold
+2025-12-17,1,Rice,Grains,8,Overproduction
+2025-12-23,8,Pulao,Prepared Food,3,Unsold
+2025-12-24,3,Vegetable Curry,Cooked Food,4,Damaged
+2026-01-04,2,Chapati,Bakery,11,Overproduction
+2026-01-05,8,Pulao,Prepared Food,7,Unsold
+2026-01-07,6,Milk,Dairy,2,Expired
+2026-01-09,3,Vegetable Curry,Cooked Food,2,Expired
+2026-01-10,8,Pulao,Prepared Food,2,Expired
+2026-01-11,7,Curd,Dairy,6,Overproduction
+2026-01-14,6,Milk,Dairy,4,Expired
+2026-01-15,4,Dal,Cooked Food,6,Overproduction
+2026-01-25,5,Bread,Bakery,1,Expired
+2026-01-27,4,Dal,Cooked Food,5,Expired
+2026-01-28,4,Dal,Cooked Food,5,Overproduction
+2026-01-29,4,Dal,Cooked Food,5,Unsold
+2026-02-07,3,Vegetable Curry,Cooked Food,5,Overproduction
+2026-02-20,4,Dal,Cooked Food,5,Unsold
+2026-02-27,1,Rice,Grains,5,Expired
+2026-03-02,5,Bread,Bakery,4,Unsold
+2026-03-04,5,Bread,Bakery,3,Expired
+2026-03-05,6,Milk,Dairy,3,Unsold
+2026-03-06,4,Dal,Cooked Food,2,Damaged
+2026-03-08,7,Curd,Dairy,5,Unsold
+2026-03-12,2,Chapati,Bakery,10,Damaged
+2026-03-13,7,Curd,Dairy,1,Expired
+2026-03-15,7,Curd,Dairy,4,Expired
+2026-03-17,1,Rice,Grains,7,Expired
+2026-03-18,1,Rice,Grains,6,Unsold
+2026-03-19,4,Dal,Cooked Food,2,Expired
+2026-03-25,7,Curd,Dairy,3,Overproduction
+2026-03-26,6,Milk,Dairy,2,Overproduction
+2026-03-28,7,Curd,Dairy,3,Expired
+2026-04-03,7,Curd,Dairy,6,Unsold
+2026-04-07,5,Bread,Bakery,7,Damaged
+2026-04-10,7,Curd,Dairy,4,Damaged
+2026-04-11,6,Milk,Dairy,6,Expired
+2026-04-13,6,Milk,Dairy,10,Overproduction
+2026-04-17,6,Milk,Dairy,3,Expired
+2026-04-18,1,Rice,Grains,4,Unsold
+2026-04-21,2,Chapati,Bakery,5,Overproduction
+2026-04-23,4,Dal,Cooked Food,2,Damaged
+2026-05-02,1,Rice,Grains,5,Unsold
+2026-05-05,1,Rice,Grains,2,Overproduction
+2026-05-10,5,Bread,Bakery,7,Unsold
+2026-05-17,4,Dal,Cooked Food,5,Overproduction
+2026-05-20,5,Bread,Bakery,6,Overproduction
+2026-05-22,6,Milk,Dairy,6,Damaged
+2026-05-24,5,Bread,Bakery,1,Damaged
+2026-05-28,5,Bread,Bakery,4,Unsold
+2026-05-29,7,Curd,Dairy,6,Unsold
+2026-05-30,7,Curd,Dairy,5,Unsold
+2026-06-03,6,Milk,Dairy,8,Unsold
+2026-06-04,3,Vegetable Curry,Cooked Food,5,Unsold
+2026-06-06,3,Vegetable Curry,Cooked Food,4,Unsold
+2026-06-09,2,Chapati,Bakery,9,Expired
+2026-06-10,3,Vegetable Curry,Cooked Food,6,Expired
+2026-06-19,4,Dal,Cooked Food,1,Unsold
+2026-06-20,5,Bread,Bakery,4,Unsold
+2026-06-21,1,Rice,Grains,6,Expired
+2026-06-30,4,Dal,Cooked Food,2,Expired
+2026-07-05,4,Dal,Cooked Food,2,Expired
+2026-07-06,8,Pulao,Prepared Food,7,Overproduction
+2026-07-21,2,Chapati,Bakery,8,Overproduction
+2026-07-23,4,Dal,Cooked Food,5,Overproduction
+2026-07-25,7,Curd,Dairy,5,Expired
+2026-07-26,8,Pulao,Prepared Food,4,Damaged
+2026-07-28,3,Vegetable Curry,Cooked Food,4,Damaged
+2026-07-30,3,Vegetable Curry,Cooked Food,4,Overproduction
+2026-07-31,2,Chapati,Bakery,3,Unsold

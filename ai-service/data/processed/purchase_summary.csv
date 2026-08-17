@@ -1,0 +1,9 @@
+food_id,food_name,category,total_purchased,total_purchase_cost,purchase_transactions
+1,Rice,Grains,15601,630576.4,53
+2,Chapati,Bakery,19264,231204.08,53
+3,Vegetable Curry,Cooked Food,11815,705985.27,53
+4,Dal,Cooked Food,10811,543574.34,53
+5,Bread,Bakery,13626,405068.06,53
+6,Milk,Dairy,17170,591497.45,53
+7,Curd,Dairy,11108,497385.39,53
+8,Pulao,Prepared Food,13022,921434.47,53

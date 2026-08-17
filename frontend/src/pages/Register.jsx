@@ -3,7 +3,6 @@ import { useNavigate, Link } from "react-router-dom";
 import api from "../services/api";
 
 function Register() {
-
     const navigate = useNavigate();
 
     const [form, setForm] = useState({
@@ -14,150 +13,109 @@ function Register() {
     });
 
     const handleChange = (e) => {
-
         setForm({
             ...form,
             [e.target.name]: e.target.value
         });
-
     };
 
     const handleSubmit = async (e) => {
-
         e.preventDefault();
-
         try {
-
             await api.post("/auth/register", form);
-
             alert("Registration Successful");
-
             navigate("/");
-
         } catch (error) {
-
             alert(error.response?.data?.message || "Registration Failed");
-
         }
-
     };
 
     return (
-
-        <div className="container mt-5">
-
-            <div className="row justify-content-center">
-
-                <div className="col-md-5">
-
-                    <div className="card shadow">
-
-                        <div className="card-body">
-
-                            <h2 className="text-center mb-4">
-                                AI-Based Food Redistribution System
-                            </h2>
-
-                            <h4 className="text-center mb-4">
-                                Register
-                            </h4>
-
-                            <form onSubmit={handleSubmit}>
-
-                                <div className="mb-3">
-
-                                    <label>Name</label>
-
-                                    <input
-                                        type="text"
-                                        className="form-control"
-                                        name="name"
-                                        value={form.name}
-                                        onChange={handleChange}
-                                        required
-                                    />
-
-                                </div>
-
-                                <div className="mb-3">
-
-                                    <label>Email</label>
-
-                                    <input
-                                        type="email"
-                                        className="form-control"
-                                        name="email"
-                                        value={form.email}
-                                        onChange={handleChange}
-                                        required
-                                    />
-
-                                </div>
-
-                                <div className="mb-3">
-
-                                    <label>Password</label>
-
-                                    <input
-                                        type="password"
-                                        className="form-control"
-                                        name="password"
-                                        value={form.password}
-                                        onChange={handleChange}
-                                        required
-                                    />
-
-                                </div>
-
-                                <div className="mb-3">
-
-                                    <label>Role</label>
-
-                                    <select
-                                        className="form-select"
-                                        name="role_id"
-                                        value={form.role_id}
-                                        onChange={handleChange}
-                                    >
-
-                                        <option value="1">Admin</option>
-                                        <option value="2">Donor</option>
-                                        <option value="3">NGO</option>
-                                        <option value="4">Volunteer</option>
-
-                                    </select>
-
-                                </div>
-
-                                <button
-                                    className="btn btn-success w-100"
-                                    type="submit"
-                                >
-                                    Register
-                                </button>
-
-                            </form>
-
-                            <div className="text-center mt-3">
-
-                                <Link to="/">
-                                    Already have an account? Login
-                                </Link>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
+        <div className="auth-container">
+            <div className="auth-card" style={{ maxWidth: "480px" }}>
+                <div className="auth-header">
+                    <div style={{ fontSize: "40px", display: "inline-block", marginBottom: "8px" }}>🌱</div>
+                    <h1>Create Account</h1>
+                    <p>Join the AI-based Food Redistribution System</p>
                 </div>
 
+                <form className="auth-form" onSubmit={handleSubmit}>
+                    <div className="form-group">
+                        <label htmlFor="name">Full Name</label>
+                        <input
+                            id="name"
+                            type="text"
+                            className="modern-input"
+                            style={{ maxWidth: "100%" }}
+                            name="name"
+                            value={form.name}
+                            onChange={handleChange}
+                            required
+                            placeholder="John Doe"
+                        />
+                    </div>
+
+                    <div className="form-group">
+                        <label htmlFor="email">Email Address</label>
+                        <input
+                            id="email"
+                            type="email"
+                            className="modern-input"
+                            style={{ maxWidth: "100%" }}
+                            name="email"
+                            value={form.email}
+                            onChange={handleChange}
+                            required
+                            placeholder="name@example.com"
+                        />
+                    </div>
+
+                    <div className="form-group">
+                        <label htmlFor="password">Password</label>
+                        <input
+                            id="password"
+                            type="password"
+                            className="modern-input"
+                            style={{ maxWidth: "100%" }}
+                            name="password"
+                            value={form.password}
+                            onChange={handleChange}
+                            required
+                            placeholder="••••••••"
+                        />
+                    </div>
+
+                    <div className="form-group">
+                        <label htmlFor="role_id">Your Role</label>
+                        <select
+                            id="role_id"
+                            className="modern-select"
+                            name="role_id"
+                            value={form.role_id}
+                            onChange={handleChange}
+                        >
+                            <option value="1">Admin</option>
+                            <option value="2">Donor</option>
+                            <option value="3">NGO</option>
+                            <option value="4">Volunteer</option>
+                        </select>
+                    </div>
+
+                    <button
+                        className="btn btn-primary"
+                        type="submit"
+                        style={{ marginTop: "10px" }}
+                    >
+                        Sign Up
+                    </button>
+                </form>
+
+                <div className="auth-footer">
+                    Already have an account? <Link to="/">Login</Link>
+                </div>
             </div>
-
         </div>
-
     );
-
 }
 
 export default Register;

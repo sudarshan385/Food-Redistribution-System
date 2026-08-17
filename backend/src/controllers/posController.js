@@ -6,7 +6,8 @@ exports.getProducts = async (req, res) => {
     try {
 
         const products = await posService.getProducts(
-            req.user.userId
+            req.user.userId,
+            req.user.role
         );
 
         res.status(200).json({

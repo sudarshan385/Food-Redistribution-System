@@ -3,7 +3,6 @@ import { useNavigate, Link } from "react-router-dom";
 import api from "../services/api.js";
 
 function Login() {
-
     const navigate = useNavigate();
 
     const [formData, setFormData] = useState({
@@ -12,124 +11,81 @@ function Login() {
     });
 
     const handleChange = (e) => {
-
         setFormData({
             ...formData,
             [e.target.name]: e.target.value
         });
-
     };
 
     const handleSubmit = async (e) => {
-
         e.preventDefault();
-
-        console.log(formData);
-
         try {
-
             const response = await api.post("/auth/login", formData);
-
-            console.log(response.data);
-
             localStorage.setItem("token", response.data.token);
-
             navigate("/dashboard");
-
         } catch (error) {
-
             console.log(error);
-
             if (error.response) {
-
                 alert(error.response.data.message);
-
             } else {
-
                 alert(error.message);
-
             }
-
         }
-
     };
 
     return (
-
-        <div className="container mt-5">
-
-            <div className="row justify-content-center">
-
-                <div className="col-md-5">
-
-                    <div className="card shadow">
-
-                        <div className="card-body">
-
-                            <h2 className="text-center mb-4">
-                                AI Food Redistribution
-                            </h2>
-
-                            <form onSubmit={handleSubmit}>
-
-                                <div className="mb-3">
-
-                                    <label>Email</label>
-
-                                    <input
-                                        type="email"
-                                        name="email"
-                                        className="form-control"
-                                        onChange={handleChange}
-                                        required
-                                    />
-
-                                </div>
-
-                                <div className="mb-3">
-
-                                    <label>Password</label>
-
-                                    <input
-                                        type="password"
-                                        name="password"
-                                        className="form-control"
-                                        onChange={handleChange}
-                                        required
-                                    />
-
-                                </div>
-
-                                <button
-                                    className="btn btn-success w-100"
-                                >
-                                    Login
-                                </button>
-
-                            </form>
-
-                            <div className="mt-3 text-center">
-
-                                <Link to="/register">
-
-                                    Create New Account
-
-                                </Link>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
+        <div className="auth-container">
+            <div className="auth-card">
+                <div className="auth-header">
+                    <div style={{ fontSize: "40px", display: "inline-block", marginBottom: "8px" }}>🌱</div>
+                    <h1>FoodSave AI</h1>
+                    <p>Enter your credentials to manage smart food distribution</p>
                 </div>
 
+                <form className="auth-form" onSubmit={handleSubmit}>
+                    <div className="form-group">
+                        <label htmlFor="email">Email Address</label>
+                        <input
+                            id="email"
+                            type="email"
+                            name="email"
+                            className="modern-input"
+                            style={{ maxWidth: "100%" }}
+                            onChange={handleChange}
+                            required
+                            placeholder="name@example.com"
+                        />
+                    </div>
+
+                    <div className="form-group">
+                        <label htmlFor="password">Password</label>
+                        <input
+                            id="password"
+                            type="password"
+                            name="password"
+                            className="modern-input"
+                            style={{ maxWidth: "100%" }}
+                            onChange={handleChange}
+                            required
+                            placeholder="••••••••"
+                        />
+                    </div>
+
+                    <button
+                        className="btn btn-primary"
+                        type="submit"
+                        style={{ marginTop: "10px" }}
+                    >
+                        Sign In
+                    </button>
+                </form>
+
+                <div className="auth-footer">
+                    Don't have an account? <Link to="/register">Create new account</Link>
+                </div>
             </div>
-
         </div>
-
     );
-
 }
 
 export default Login;

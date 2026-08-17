@@ -6,7 +6,8 @@ exports.getHistory = async (req, res) => {
     try {
 
         const history = await historyService.getHistory(
-            req.user.userId
+            req.user.userId,
+            req.user.role
         );
 
         res.status(200).json({

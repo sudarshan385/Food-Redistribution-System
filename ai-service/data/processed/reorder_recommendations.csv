@@ -1,0 +1,53 @@
+food_id,food_name,current_stock,average_daily_demand,forecasted_7_day_demand,safety_stock,target_stock,storage_capacity,available_storage,waste_risk_score,waste_risk_category,recommended_purchase,reorder_status,reason,forecast_source
+14,Rice,10.0,49.63,347.4,69.48,416.88,500,490.0,49.08,MODERATE,407,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+42,chapati,20.0,59.12,413.87,82.77,496.64,500,480.0,44.55,MODERATE,477,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+43,Milk,20.0,51.2,358.43,71.69,430.12,500,480.0,44.57,MODERATE,410,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+44,Vegetable Curry,20.0,37.44,262.05,52.41,314.46,500,480.0,44.59,MODERATE,294,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+45,Dal,50.0,33.68,235.73,47.15,282.88,500,450.0,35.58,MODERATE,233,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+46,Bread,60.0,43.32,303.26,60.65,363.91,500,440.0,49.08,MODERATE,304,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+47,Curd,40.0,35.5,248.51,49.7,298.21,500,460.0,44.61,MODERATE,258,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+48,pulao,80.0,41.55,290.85,58.17,349.02,500,420.0,53.07,MODERATE,269,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+49,Rice,2.0,49.63,347.4,69.48,416.88,500,498.0,44.58,MODERATE,415,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+50,Apple,30.0,44.08,308.53,61.71,370.24,500,470.0,35.5,MODERATE,340,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+51,Mango,20.0,44.08,308.53,61.71,370.24,500,480.0,35.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+41,Rice,20.0,49.63,347.4,69.48,416.88,500,480.0,44.58,MODERATE,397,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+52,Kiwi,5.0,44.08,308.53,61.71,370.24,500,495.0,35.5,MODERATE,365,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+54,Rice,40.0,49.63,347.4,69.48,416.88,500,460.0,35.58,MODERATE,377,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+55,Miik,5.0,44.31,310.14,62.03,372.17,500,495.0,44.59,MODERATE,367,REORDER,Recommended based on 7-day forecast and safety stock,CATEGORY_HISTORY
+56,Bread,10.0,43.32,303.26,60.65,363.91,500,490.0,44.58,MODERATE,354,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+57,Curd,50.0,35.5,248.51,49.7,298.21,500,450.0,44.61,MODERATE,248,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+58,chapati,50.0,59.12,413.87,82.77,496.64,500,450.0,35.55,MODERATE,447,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+59,Dal,20.0,33.68,235.73,47.15,282.88,500,480.0,35.58,MODERATE,263,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+60,Vegetable Curry,10.0,37.44,262.05,52.41,314.46,500,490.0,35.59,MODERATE,304,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+61,pulao,80.0,41.55,290.85,58.17,349.02,500,420.0,39.57,MODERATE,269,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+62,pulao,50.0,41.55,290.85,58.17,349.02,500,450.0,35.57,MODERATE,299,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+63,chapati,30.0,59.12,413.87,82.77,496.64,500,470.0,35.55,MODERATE,467,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+53,jack,20.0,44.08,308.53,61.71,370.24,500,480.0,35.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+40,onions,370.0,44.08,308.53,61.71,370.24,500,130.0,43.25,MODERATE,0,SUFFICIENT,Current stock sufficient,GLOBAL_HISTORY
+39,cucumber,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+38,papaya,10.0,44.08,308.53,61.71,370.24,500,490.0,44.5,MODERATE,360,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+15,Bread,10.0,43.32,303.26,60.65,363.91,500,490.0,49.08,MODERATE,354,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+16,milk,10.0,51.2,358.43,71.69,430.12,500,490.0,49.07,MODERATE,420,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+17,Apple,10.0,44.08,308.53,61.71,370.24,500,490.0,49.0,MODERATE,360,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+18,Banana,10.0,44.08,308.53,61.71,370.24,500,490.0,49.0,MODERATE,360,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+19,Rice,45.0,49.63,347.4,69.48,416.88,500,455.0,49.08,MODERATE,372,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+20,Kiwi,10.0,44.08,308.53,61.71,370.24,500,490.0,49.0,MODERATE,360,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+21,Kiwi,10.0,44.08,308.53,61.71,370.24,500,490.0,49.0,MODERATE,360,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+22,jack,20.0,44.08,308.53,61.71,370.24,500,480.0,49.0,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+23,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+24,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+25,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+26,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+27,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+28,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+29,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+30,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+31,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+32,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+33,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+34,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+35,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+36,Grapes,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+37,Apple,20.0,44.08,308.53,61.71,370.24,500,480.0,44.5,MODERATE,350,REORDER,Recommended based on 7-day forecast and safety stock,GLOBAL_HISTORY
+64,Curd,50.0,35.5,248.51,49.7,298.21,500,450.0,35.61,MODERATE,248,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME
+65,Bread,10.0,43.32,303.26,60.65,363.91,500,490.0,44.58,MODERATE,354,REORDER,Recommended based on 7-day forecast and safety stock,LSTM_FOOD_NAME

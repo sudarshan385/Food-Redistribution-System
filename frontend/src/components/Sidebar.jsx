@@ -1,90 +1,114 @@
-import { NavLink, useNavigate } from "react-router-dom";
-import {
-    FaTachometerAlt,
-    FaBoxOpen,
-    FaPlusCircle,
-    FaUpload,
-    FaQrcode,
-    FaStore,
-    FaHistory,
-    FaSignOutAlt
-} from "react-icons/fa";
+import React from "react";
+import { NavLink } from "react-router-dom";
+import { 
+    FiGrid, 
+    FiBox, 
+    FiCpu, 
+    FiRefreshCw, 
+    FiAlertTriangle, 
+    FiMonitor, 
+    FiClock, 
+    FiLogOut 
+} from "react-icons/fi";
 
 function Sidebar() {
+    const menuItems = [
+        {
+            name: "Dashboard",
+            path: "/dashboard",
+            icon: <FiGrid />,
+        },
+        {
+            name: "Inventory",
+            path: "/inventory",
+            icon: <FiBox />,
+        },
+        {
+            name: "AI Operations",
+            path: "/ai-operations",
+            icon: <FiCpu />,
+        },
+        {
+            name: "Reorder Requests",
+            path: "/reorder-requests",
+            icon: <FiRefreshCw />,
+        },
+        {
+            name: "Expiry Alerts",
+            path: "/expiry-alerts",
+            icon: <FiAlertTriangle />,
+        },
+        {
+            name: "POS Integration",
+            path: "/pos",
+            icon: <FiMonitor />,
+        },
+        {
+            name: "Transaction History",
+            path: "/history",
+            icon: <FiClock />,
+        },
+    ];
 
-    const navigate = useNavigate();
-
-    const logout = () => {
-
+    const handleLogout = () => {
         localStorage.removeItem("token");
-        localStorage.removeItem("role");
-
-        navigate("/");
-
     };
 
     return (
+        <aside className="sidebar">
+            {/* ================= BRAND ================= */}
+            <div className="sidebar-brand">
+                <div className="brand-icon">
+                    🌱
+                </div>
+                <div className="brand-text">
+                    <h2>FoodSave AI</h2>
+                    <span>Smart Food Manager</span>
+                </div>
+            </div>
 
-        <div
-            className="bg-dark text-white vh-100 p-3"
-            style={{
-                width: "250px",
-                position: "fixed",
-                top: 0,
-                left: 0,
-                overflowY: "auto"
-            }}
-        >
+            {/* ================= NAVIGATION ================= */}
+            <nav className="sidebar-nav">
+                <div className="nav-section-title">
+                    Main Menu
+                </div>
+                <div className="nav-menu">
+                    {menuItems.map((item) => (
+                        <NavLink
+                            key={item.path}
+                            to={item.path}
+                            className={({ isActive }) =>
+                                `sidebar-link ${isActive ? "active" : ""}`
+                            }
+                        >
+                            <span className="sidebar-icon">
+                                {item.icon}
+                            </span>
+                            <span className="sidebar-label">
+                                {item.name}
+                            </span>
+                        </NavLink>
+                    ))}
+                </div>
+            </nav>
 
-            <h4 className="text-center mb-4">
-                AI Food System
-            </h4>
-
-            <NavLink
-                to="/dashboard"
-                className="nav-link text-white mb-2"
-            >
-                <FaTachometerAlt className="me-2" />
-                Dashboard
-            </NavLink>
-
-            <NavLink
-                to="/inventory"
-                className="nav-link text-white mb-2"
-            >
-                <FaBoxOpen className="me-2" />
-                Inventory
-            </NavLink>
-            <NavLink
-                to="/pos"
-                className="nav-link text-white mb-2"
-            >
-                <FaStore className="me-2" />
-                POS Integration
-            </NavLink>
-
-            <NavLink
-                to="/history"
-                className="nav-link text-white mb-2"
-            >
-                <FaHistory className="me-2" />
-                Transaction History
-            </NavLink>
-
-            <hr />
-
-            <button
-                className="btn btn-danger w-100"
-                onClick={logout}
-            >
-                <FaSignOutAlt className="me-2" />
-                Logout
-            </button>
-
-        </div>
-
+            {/* ================= LOGOUT ================= */}
+            <div className="sidebar-bottom">
+                <NavLink
+                    to="/"
+                    onClick={handleLogout}
+                    className="logout-link"
+                >
+                    <span className="sidebar-icon">
+                        <FiLogOut />
+                    </span>
+                    <span className="sidebar-label">
+                        Logout
+                    </span>
+                </NavLink>
+            </div>
+        </aside>
     );
-
 }
 
 export default Sidebar;

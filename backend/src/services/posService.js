@@ -1,17 +1,27 @@
 const pool = require("../config/db");
 
 // Get POS Products
-const getProducts = async (donorId) => {
+const getProducts = async (userId, role) => {
+
+    let baseQuery = "";
+    let params = [];
+
+    if (role === 2) {
+        baseQuery = "WHERE donor_id = $1 AND status = 'AVAILABLE'";
+        params = [userId];
+    } else {
+        baseQuery = "WHERE status = 'AVAILABLE'";
+        params = [];
+    }
 
     const result = await pool.query(
 
         `SELECT *
          FROM food_item
-         WHERE donor_id = $1
-           AND status = 'AVAILABLE'
+         ${baseQuery}
          ORDER BY food_id DESC`,
 
-        [donorId]
+        params
 
     );
 

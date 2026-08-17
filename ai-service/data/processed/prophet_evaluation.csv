@@ -1,0 +1,9 @@
+food_id,food_name,category,mae,rmse,model_file
+1,Rice,Cooked Food,5.57,6.37,C:\Users\Admin\Desktop\Food-Redistribution-System\ai-service\models\prophet_food_1.pkl
+2,Chapati,Bakery,6.43,7.89,C:\Users\Admin\Desktop\Food-Redistribution-System\ai-service\models\prophet_food_2.pkl
+3,Vegetable Curry,Cooked Food,4.5,5.21,C:\Users\Admin\Desktop\Food-Redistribution-System\ai-service\models\prophet_food_3.pkl
+4,Dal,Cooked Food,3.6,4.37,C:\Users\Admin\Desktop\Food-Redistribution-System\ai-service\models\prophet_food_4.pkl
+5,Bread,Bakery,6.9,8.31,C:\Users\Admin\Desktop\Food-Redistribution-System\ai-service\models\prophet_food_5.pkl
+6,Milk,Dairy,9.19,10.65,C:\Users\Admin\Desktop\Food-Redistribution-System\ai-service\models\prophet_food_6.pkl
+7,Curd,Dairy,3.7,4.26,C:\Users\Admin\Desktop\Food-Redistribution-System\ai-service\models\prophet_food_7.pkl
+8,Pulao,Cooked Food,6.35,7.21,C:\Users\Admin\Desktop\Food-Redistribution-System\ai-service\models\prophet_food_8.pkl

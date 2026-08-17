@@ -2,32 +2,43 @@ const pool = require("../config/db");
 const getExpiryStatus = require("../utils/expiryStatus");
 
 // Get Dashboard
-const getDashboard = async (donorId) => {
+const getDashboard = async (userId, role) => {
+
+    let baseQuery = "";
+    let params = [];
+    
+    // If role is 2 (Donor), only show their food.
+    // Otherwise (Admin, NGO, Volunteer), show all food in the system.
+    if (role === 2) {
+        baseQuery = "WHERE donor_id = $1";
+        params = [userId];
+    }
+
+    const availableCond = baseQuery ? "AND status = 'AVAILABLE'" : "WHERE status = 'AVAILABLE'";
+    const removedCond = baseQuery ? "AND status = 'REMOVED'" : "WHERE status = 'REMOVED'";
 
     // Total Food
     const totalFood = await pool.query(
         `SELECT COUNT(*) 
          FROM food_item
-         WHERE donor_id = $1`,
-        [donorId]
+         ${baseQuery}`,
+        params
     );
 
     // Available Food
     const availableFood = await pool.query(
         `SELECT COUNT(*)
          FROM food_item
-         WHERE donor_id = $1
-         AND status = 'AVAILABLE'`,
-        [donorId]
+         ${baseQuery} ${availableCond}`,
+        params
     );
 
     // Removed Food
     const removedFood = await pool.query(
         `SELECT COUNT(*)
          FROM food_item
-         WHERE donor_id = $1
-         AND status = 'REMOVED'`,
-        [donorId]
+         ${baseQuery} ${removedCond}`,
+        params
     );
 
     // Category Analytics
@@ -35,19 +46,17 @@ const getDashboard = async (donorId) => {
         `SELECT category,
                 COUNT(*) AS count
          FROM food_item
-         WHERE donor_id = $1
-           AND status = 'AVAILABLE'
+         ${baseQuery} ${availableCond}
          GROUP BY category`,
-        [donorId]
+        params
     );
 
     // Expiry Analytics
     const expiryResult = await pool.query(
         `SELECT expiry_date
          FROM food_item
-         WHERE donor_id = $1
-           AND status = 'AVAILABLE'`,
-        [donorId]
+         ${baseQuery} ${availableCond}`,
+        params
     );
 
     let fresh = 0;

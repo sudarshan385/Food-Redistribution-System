@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import Sidebar from "../components/Sidebar";
 import api from "../services/api";
+import { FiMonitor } from "react-icons/fi";
 
 function POS() {
-
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
@@ -11,132 +11,76 @@ function POS() {
     }, []);
 
     const loadProducts = async () => {
-
         try {
-
             const response = await api.get("/pos/products");
-
             setProducts(response.data.products);
-
         } catch (error) {
-
             console.error(error);
-
             alert("Unable to load POS products.");
-
         }
-
     };
 
     return (
-
-        <div className="container-fluid">
-
-            <div className="row">
-
-                <div className="col-md-2">
-                    <Sidebar />
-                </div>
-
-                <div className="col-md-10 p-4">
-
-                    <div className="d-flex justify-content-between align-items-center mb-4">
-
-                        <div>
-
-                            <h2 className="fw-bold">
-                                POS Integration
-                            </h2>
-
-                            <p className="text-muted mb-0">
-                                Products fetched from POS through REST API
-                            </p>
-
-                        </div>
-
-                        <span className="badge bg-success fs-6">
-                            REST API Connected
+        <div className="app-shell">
+            <Sidebar />
+            <main className="main-content">
+                <div className="page-header">
+                    <div>
+                        <div className="eyebrow">SYSTEM INTEGRATIONS</div>
+                        <h1>POS Integration</h1>
+                        <p>Products fetched from the active Point of Sale terminal registry.</p>
+                    </div>
+                    <div>
+                        <span className="status-pill success" style={{ padding: "8px 16px" }}>
+                            ● REST API Connected
                         </span>
-
                     </div>
-
-                    <div className="mb-3">
-
-                        <h5>
-                            Total Products :
-                            <span className="text-primary">
-                                {" "}{products.length}
-                            </span>
-                        </h5>
-
-                    </div>
-
-                    <div className="table-responsive">
-
-                        <table className="table table-bordered table-hover align-middle">
-
-                            <thead className="table-dark">
-
-                            <tr>
-
-                                <th>ID</th>
-                                <th>Food Name</th>
-                                <th>Category</th>
-                                <th>Quantity</th>
-
-                            </tr>
-
-                            </thead>
-
-                            <tbody>
-
-                            {products.length > 0 ? (
-
-                                products.map((item) => (
-
-                                    <tr key={item.food_id}>
-
-                                        <td>{item.food_id}</td>
-
-                                        <td>{item.food_name}</td>
-
-                                        <td>{item.category}</td>
-
-                                        <td>{item.quantity}</td>
-
-                                    </tr>
-
-                                ))
-
-                            ) : (
-
-                                <tr>
-
-                                    <td
-                                        colSpan="4"
-                                        className="text-center text-muted"
-                                    >
-                                        No POS Products Available
-                                    </td>
-
-                                </tr>
-
-                            )}
-
-                            </tbody>
-
-                        </table>
-
-                    </div>
-
                 </div>
 
-            </div>
+                <section className="modern-panel">
+                    <div className="panel-toolbar">
+                        <div>
+                            <h2>POS Register Items</h2>
+                            <span>Total Products: <strong>{products.length}</strong></span>
+                        </div>
+                    </div>
 
+                    {products.length > 0 ? (
+                        <div className="table-wrap">
+                            <table className="modern-table">
+                                <thead>
+                                    <tr>
+                                        <th>Product ID</th>
+                                        <th>Food Name</th>
+                                        <th>Category</th>
+                                        <th>Quantity Available</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {products.map((item) => (
+                                        <tr key={item.food_id}>
+                                            <td><code>#{item.food_id}</code></td>
+                                            <td><strong>{item.food_name}</strong></td>
+                                            <td>
+                                                <span className="status-pill info">{item.category}</span>
+                                            </td>
+                                            <td><strong>{item.quantity}</strong> units</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    ) : (
+                        <div className="empty-state">
+                            <div className="empty-icon"><FiMonitor /></div>
+                            <h3>No POS Products Available</h3>
+                            <p>No products were found registered in the remote POS registry.</p>
+                        </div>
+                    )}
+                </section>
+            </main>
         </div>
-
     );
-
 }
 
 export default POS;

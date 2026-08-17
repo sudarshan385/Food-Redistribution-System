@@ -1,0 +1,9 @@
+food_id,food_name,category,total_wasted,waste_transactions
+1,Rice,Grains,80,16
+2,Chapati,Bakery,60,8
+3,Vegetable Curry,Cooked Food,74,19
+4,Dal,Cooked Food,60,16
+5,Bread,Bakery,74,17
+6,Milk,Dairy,81,15
+7,Curd,Dairy,81,21
+8,Pulao,Prepared Food,57,13

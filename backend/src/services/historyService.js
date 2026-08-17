@@ -1,7 +1,18 @@
 const pool = require("../config/db");
 
 // Get Transaction History
-const getHistory = async (userId) => {
+const getHistory = async (userId, role) => {
+
+    let baseQuery = "";
+    let params = [];
+
+    if (role === 2) {
+        baseQuery = "WHERE th.user_id = $1";
+        params = [userId];
+    } else {
+        baseQuery = "";
+        params = [];
+    }
 
     const result = await pool.query(
 
@@ -16,10 +27,10 @@ const getHistory = async (userId) => {
                             ON th.user_id = u.user_id
                   LEFT JOIN food_item fi
                             ON th.food_id = fi.food_id
-         WHERE th.user_id = $1
+         ${baseQuery}
          ORDER BY th.created_at DESC`,
 
-        [userId]
+        params
 
     );
 

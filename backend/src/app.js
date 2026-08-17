@@ -11,6 +11,9 @@ const uploadRoutes = require("./routes/uploadRoutes");
 const posRoutes = require("./routes/posRoutes");
 const historyRoutes = require("./routes/historyRoutes");
 const alertRoutes = require("./routes/alertRoutes");
+const aiRoutes = require("./routes/aiRoutes");
+const reorderRoutes = require("./routes/reorderRoutes");
+const salesRoutes = require("./routes/salesRoutes");
 //const donationRoutes = require("./routes/donationRoutes");
 
 const app = express();
@@ -35,6 +38,9 @@ app.use("/api/pos", posRoutes);
 app.use("/api/history", historyRoutes);
 //app.use("/api/donation", donationRoutes);
 app.use("/api/alerts", alertRoutes);
+app.use("/api/ai", aiRoutes);
+app.use("/api/reorder", reorderRoutes);
+app.use("/api/sales", salesRoutes);
 
 
 app.get("/", (req, res) => {

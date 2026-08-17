@@ -1,0 +1,425 @@
+date,food_id,food_name,category,quantity_purchased,supplier,purchase_cost
+2025-08-01,1,Rice,Grains,237,Fresh Foods Ltd,9672.75
+2025-08-01,2,Chapati,Bakery,278,City Wholesale Market,3002.86
+2025-08-01,3,Vegetable Curry,Cooked Food,271,Fresh Foods Ltd,17256.56
+2025-08-01,4,Dal,Cooked Food,180,Fresh Foods Ltd,9753.81
+2025-08-01,5,Bread,Bakery,301,Green Basket Suppliers,8234.56
+2025-08-01,6,Milk,Dairy,272,Fresh Foods Ltd,10042.39
+2025-08-01,7,Curd,Dairy,241,Green Basket Suppliers,11843.95
+2025-08-01,8,Pulao,Prepared Food,232,City Wholesale Market,16519.38
+2025-08-08,1,Rice,Grains,270,Green Basket Suppliers,10014.74
+2025-08-08,2,Chapati,Bakery,300,City Wholesale Market,3810.13
+2025-08-08,3,Vegetable Curry,Cooked Food,275,Green Basket Suppliers,15424.87
+2025-08-08,4,Dal,Cooked Food,237,Green Basket Suppliers,11194.07
+2025-08-08,5,Bread,Bakery,270,Fresh Foods Ltd,7902.98
+2025-08-08,6,Milk,Dairy,360,Green Basket Suppliers,11660.92
+2025-08-08,7,Curd,Dairy,229,City Wholesale Market,11027.91
+2025-08-08,8,Pulao,Prepared Food,277,Local Supplier,18157.11
+2025-08-15,1,Rice,Grains,267,Fresh Foods Ltd,10978.29
+2025-08-15,2,Chapati,Bakery,292,City Wholesale Market,3252.16
+2025-08-15,3,Vegetable Curry,Cooked Food,253,Fresh Foods Ltd,14714.92
+2025-08-15,4,Dal,Cooked Food,178,Local Supplier,9472.56
+2025-08-15,5,Bread,Bakery,280,Green Basket Suppliers,8310.34
+2025-08-15,6,Milk,Dairy,289,Fresh Foods Ltd,10505.8
+2025-08-15,7,Curd,Dairy,193,Local Supplier,9067.86
+2025-08-15,8,Pulao,Prepared Food,195,City Wholesale Market,14284.96
+2025-08-22,1,Rice,Grains,355,City Wholesale Market,14180.35
+2025-08-22,2,Chapati,Bakery,337,City Wholesale Market,3721.64
+2025-08-22,3,Vegetable Curry,Cooked Food,225,Fresh Foods Ltd,12589.17
+2025-08-22,4,Dal,Cooked Food,156,Local Supplier,7480.06
+2025-08-22,5,Bread,Bakery,238,Local Supplier,6531.96
+2025-08-22,6,Milk,Dairy,275,City Wholesale Market,8972.24
+2025-08-22,7,Curd,Dairy,167,Local Supplier,7271.44
+2025-08-22,8,Pulao,Prepared Food,302,City Wholesale Market,22004.65
+2025-08-29,1,Rice,Grains,283,Fresh Foods Ltd,11562.97
+2025-08-29,2,Chapati,Bakery,346,Local Supplier,3820.88
+2025-08-29,3,Vegetable Curry,Cooked Food,196,Fresh Foods Ltd,11546.63
+2025-08-29,4,Dal,Cooked Food,199,Green Basket Suppliers,10269.59
+2025-08-29,5,Bread,Bakery,235,Local Supplier,6414.99
+2025-08-29,6,Milk,Dairy,335,City Wholesale Market,10912.67
+2025-08-29,7,Curd,Dairy,194,City Wholesale Market,8010.0
+2025-08-29,8,Pulao,Prepared Food,283,City Wholesale Market,18620.11
+2025-09-05,1,Rice,Grains,228,Fresh Foods Ltd,9372.06
+2025-09-05,2,Chapati,Bakery,436,City Wholesale Market,5591.72
+2025-09-05,3,Vegetable Curry,Cooked Food,207,City Wholesale Market,12347.83
+2025-09-05,4,Dal,Cooked Food,230,Green Basket Suppliers,10559.61
+2025-09-05,5,Bread,Bakery,265,Fresh Foods Ltd,7744.92
+2025-09-05,6,Milk,Dairy,307,Fresh Foods Ltd,10628.47
+2025-09-05,7,Curd,Dairy,185,City Wholesale Market,7931.06
+2025-09-05,8,Pulao,Prepared Food,285,Local Supplier,18558.01
+2025-09-12,1,Rice,Grains,319,Local Supplier,11702.73
+2025-09-12,2,Chapati,Bakery,331,City Wholesale Market,4345.93
+2025-09-12,3,Vegetable Curry,Cooked Food,236,Local Supplier,15125.14
+2025-09-12,4,Dal,Cooked Food,223,City Wholesale Market,12188.35
+2025-09-12,5,Bread,Bakery,282,City Wholesale Market,8583.03
+2025-09-12,6,Milk,Dairy,285,Green Basket Suppliers,9135.02
+2025-09-12,7,Curd,Dairy,246,Local Supplier,11074.65
+2025-09-12,8,Pulao,Prepared Food,292,Fresh Foods Ltd,18887.71
+2025-09-19,1,Rice,Grains,327,Fresh Foods Ltd,14254.74
+2025-09-19,2,Chapati,Bakery,302,Fresh Foods Ltd,3847.57
+2025-09-19,3,Vegetable Curry,Cooked Food,188,City Wholesale Market,10328.8
+2025-09-19,4,Dal,Cooked Food,211,Fresh Foods Ltd,11599.24
+2025-09-19,5,Bread,Bakery,275,Green Basket Suppliers,7952.59
+2025-09-19,6,Milk,Dairy,359,Local Supplier,11527.2
+2025-09-19,7,Curd,Dairy,213,Green Basket Suppliers,10268.65
+2025-09-19,8,Pulao,Prepared Food,249,Local Supplier,18428.92
+2025-09-26,1,Rice,Grains,309,City Wholesale Market,11402.15
+2025-09-26,2,Chapati,Bakery,299,Local Supplier,3892.93
+2025-09-26,3,Vegetable Curry,Cooked Food,234,Local Supplier,14842.37
+2025-09-26,4,Dal,Cooked Food,228,Green Basket Suppliers,12261.6
+2025-09-26,5,Bread,Bakery,231,City Wholesale Market,7029.82
+2025-09-26,6,Milk,Dairy,320,Fresh Foods Ltd,10696.93
+2025-09-26,7,Curd,Dairy,173,City Wholesale Market,7066.88
+2025-09-26,8,Pulao,Prepared Food,291,Green Basket Suppliers,21146.15
+2025-10-03,1,Rice,Grains,231,City Wholesale Market,10017.7
+2025-10-03,2,Chapati,Bakery,423,Local Supplier,4911.4
+2025-10-03,3,Vegetable Curry,Cooked Food,258,Green Basket Suppliers,14799.95
+2025-10-03,4,Dal,Cooked Food,194,Local Supplier,10616.64
+2025-10-03,5,Bread,Bakery,227,Green Basket Suppliers,7455.89
+2025-10-03,6,Milk,Dairy,316,Green Basket Suppliers,10549.96
+2025-10-03,7,Curd,Dairy,200,Local Supplier,8438.28
+2025-10-03,8,Pulao,Prepared Food,214,City Wholesale Market,15701.87
+2025-10-10,1,Rice,Grains,327,Green Basket Suppliers,13919.78
+2025-10-10,2,Chapati,Bakery,360,Fresh Foods Ltd,3944.69
+2025-10-10,3,Vegetable Curry,Cooked Food,249,City Wholesale Market,13851.32
+2025-10-10,4,Dal,Cooked Food,226,Local Supplier,10562.65
+2025-10-10,5,Bread,Bakery,305,Fresh Foods Ltd,9766.67
+2025-10-10,6,Milk,Dairy,287,City Wholesale Market,9142.07
+2025-10-10,7,Curd,Dairy,194,Fresh Foods Ltd,8335.36
+2025-10-10,8,Pulao,Prepared Food,283,City Wholesale Market,20346.49
+2025-10-17,1,Rice,Grains,241,Local Supplier,9142.46
+2025-10-17,2,Chapati,Bakery,355,City Wholesale Market,3985.3
+2025-10-17,3,Vegetable Curry,Cooked Food,266,Green Basket Suppliers,15462.84
+2025-10-17,4,Dal,Cooked Food,225,Green Basket Suppliers,11810.16
+2025-10-17,5,Bread,Bakery,282,Green Basket Suppliers,7660.45
+2025-10-17,6,Milk,Dairy,257,Fresh Foods Ltd,9637.44
+2025-10-17,7,Curd,Dairy,222,Fresh Foods Ltd,9528.63
+2025-10-17,8,Pulao,Prepared Food,236,Local Supplier,17724.74
+2025-10-24,1,Rice,Grains,355,Local Supplier,14126.44
+2025-10-24,2,Chapati,Bakery,296,Fresh Foods Ltd,3623.85
+2025-10-24,3,Vegetable Curry,Cooked Food,175,Green Basket Suppliers,10727.52
+2025-10-24,4,Dal,Cooked Food,234,Green Basket Suppliers,11521.71
+2025-10-24,5,Bread,Bakery,245,Green Basket Suppliers,7289.73
+2025-10-24,6,Milk,Dairy,282,Green Basket Suppliers,10219.79
+2025-10-24,7,Curd,Dairy,239,City Wholesale Market,10936.73
+2025-10-24,8,Pulao,Prepared Food,190,Green Basket Suppliers,13463.48
+2025-10-31,1,Rice,Grains,305,Green Basket Suppliers,11708.28
+2025-10-31,2,Chapati,Bakery,292,Local Supplier,3389.27
+2025-10-31,3,Vegetable Curry,Cooked Food,204,Green Basket Suppliers,13124.93
+2025-10-31,4,Dal,Cooked Food,173,Green Basket Suppliers,8110.86
+2025-10-31,5,Bread,Bakery,262,Fresh Foods Ltd,8488.31
+2025-10-31,6,Milk,Dairy,370,City Wholesale Market,13365.77
+2025-10-31,7,Curd,Dairy,225,Local Supplier,10439.69
+2025-10-31,8,Pulao,Prepared Food,303,Green Basket Suppliers,22936.12
+2025-11-07,1,Rice,Grains,279,Local Supplier,11345.31
+2025-11-07,2,Chapati,Bakery,439,Fresh Foods Ltd,5102.76
+2025-11-07,3,Vegetable Curry,Cooked Food,249,City Wholesale Market,16154.7
+2025-11-07,4,Dal,Cooked Food,210,Green Basket Suppliers,11225.38
+2025-11-07,5,Bread,Bakery,300,Fresh Foods Ltd,8628.81
+2025-11-07,6,Milk,Dairy,320,Green Basket Suppliers,11704.42
+2025-11-07,7,Curd,Dairy,213,Fresh Foods Ltd,10441.75
+2025-11-07,8,Pulao,Prepared Food,292,Local Supplier,19304.57
+2025-11-14,1,Rice,Grains,255,Green Basket Suppliers,10037.76
+2025-11-14,2,Chapati,Bakery,421,Green Basket Suppliers,4810.07
+2025-11-14,3,Vegetable Curry,Cooked Food,205,Local Supplier,12227.52
+2025-11-14,4,Dal,Cooked Food,227,Local Supplier,11286.94
+2025-11-14,5,Bread,Bakery,223,Local Supplier,7181.71
+2025-11-14,6,Milk,Dairy,307,Green Basket Suppliers,10558.27
+2025-11-14,7,Curd,Dairy,243,Fresh Foods Ltd,10141.92
+2025-11-14,8,Pulao,Prepared Food,212,City Wholesale Market,16285.98
+2025-11-21,1,Rice,Grains,345,City Wholesale Market,12815.3
+2025-11-21,2,Chapati,Bakery,417,Fresh Foods Ltd,5283.16
+2025-11-21,3,Vegetable Curry,Cooked Food,226,Fresh Foods Ltd,13053.98
+2025-11-21,4,Dal,Cooked Food,155,City Wholesale Market,7398.97
+2025-11-21,5,Bread,Bakery,291,Fresh Foods Ltd,8863.18
+2025-11-21,6,Milk,Dairy,273,Local Supplier,8846.79
+2025-11-21,7,Curd,Dairy,201,City Wholesale Market,8870.24
+2025-11-21,8,Pulao,Prepared Food,300,City Wholesale Market,18919.61
+2025-11-28,1,Rice,Grains,297,Green Basket Suppliers,12949.36
+2025-11-28,2,Chapati,Bakery,422,Fresh Foods Ltd,4575.75
+2025-11-28,3,Vegetable Curry,Cooked Food,175,Fresh Foods Ltd,9925.16
+2025-11-28,4,Dal,Cooked Food,228,Green Basket Suppliers,10553.96
+2025-11-28,5,Bread,Bakery,246,Green Basket Suppliers,6888.52
+2025-11-28,6,Milk,Dairy,373,Green Basket Suppliers,14225.94
+2025-11-28,7,Curd,Dairy,203,Green Basket Suppliers,9013.81
+2025-11-28,8,Pulao,Prepared Food,268,Fresh Foods Ltd,18169.93
+2025-12-05,1,Rice,Grains,346,Green Basket Suppliers,14532.32
+2025-12-05,2,Chapati,Bakery,302,City Wholesale Market,3275.46
+2025-12-05,3,Vegetable Curry,Cooked Food,198,Fresh Foods Ltd,11193.79
+2025-12-05,4,Dal,Cooked Food,151,Fresh Foods Ltd,6980.97
+2025-12-05,5,Bread,Bakery,285,Local Supplier,8336.58
+2025-12-05,6,Milk,Dairy,346,Local Supplier,12337.48
+2025-12-05,7,Curd,Dairy,164,Local Supplier,7606.67
+2025-12-05,8,Pulao,Prepared Food,192,Local Supplier,13216.29
+2025-12-12,1,Rice,Grains,276,Green Basket Suppliers,10983.47
+2025-12-12,2,Chapati,Bakery,300,Local Supplier,3456.8
+2025-12-12,3,Vegetable Curry,Cooked Food,244,Green Basket Suppliers,14999.55
+2025-12-12,4,Dal,Cooked Food,213,City Wholesale Market,11354.29
+2025-12-12,5,Bread,Bakery,212,Local Supplier,6083.6
+2025-12-12,6,Milk,Dairy,367,City Wholesale Market,12070.82
+2025-12-12,7,Curd,Dairy,179,Green Basket Suppliers,8589.04
+2025-12-12,8,Pulao,Prepared Food,300,Green Basket Suppliers,21854.43
+2025-12-19,1,Rice,Grains,264,Local Supplier,10661.67
+2025-12-19,2,Chapati,Bakery,425,City Wholesale Market,4927.22
+2025-12-19,3,Vegetable Curry,Cooked Food,175,Local Supplier,11354.45
+2025-12-19,4,Dal,Cooked Food,225,City Wholesale Market,10460.58
+2025-12-19,5,Bread,Bakery,210,Local Supplier,6581.69
+2025-12-19,6,Milk,Dairy,265,Green Basket Suppliers,9542.74
+2025-12-19,7,Curd,Dairy,203,Green Basket Suppliers,8704.06
+2025-12-19,8,Pulao,Prepared Food,195,Fresh Foods Ltd,14671.4
+2025-12-26,1,Rice,Grains,340,Green Basket Suppliers,14420.34
+2025-12-26,2,Chapati,Bakery,326,Local Supplier,3595.13
+2025-12-26,3,Vegetable Curry,Cooked Food,254,Local Supplier,13745.48
+2025-12-26,4,Dal,Cooked Food,162,Fresh Foods Ltd,7822.43
+2025-12-26,5,Bread,Bakery,307,Green Basket Suppliers,9907.15
+2025-12-26,6,Milk,Dairy,263,Green Basket Suppliers,8621.16
+2025-12-26,7,Curd,Dairy,198,City Wholesale Market,8503.41
+2025-12-26,8,Pulao,Prepared Food,233,City Wholesale Market,17288.27
+2026-01-02,1,Rice,Grains,312,Fresh Foods Ltd,11514.19
+2026-01-02,2,Chapati,Bakery,389,Local Supplier,5117.59
+2026-01-02,3,Vegetable Curry,Cooked Food,263,Local Supplier,15514.98
+2026-01-02,4,Dal,Cooked Food,203,City Wholesale Market,9502.96
+2026-01-02,5,Bread,Bakery,245,Green Basket Suppliers,7513.7
+2026-01-02,6,Milk,Dairy,379,Fresh Foods Ltd,13220.11
+2026-01-02,7,Curd,Dairy,206,City Wholesale Market,9160.04
+2026-01-02,8,Pulao,Prepared Food,197,Green Basket Suppliers,12445.09
+2026-01-09,1,Rice,Grains,342,Fresh Foods Ltd,14987.52
+2026-01-09,2,Chapati,Bakery,385,Green Basket Suppliers,4637.65
+2026-01-09,3,Vegetable Curry,Cooked Food,247,Local Supplier,14620.96
+2026-01-09,4,Dal,Cooked Food,215,City Wholesale Market,10418.36
+2026-01-09,5,Bread,Bakery,281,City Wholesale Market,7837.63
+2026-01-09,6,Milk,Dairy,373,Local Supplier,11779.9
+2026-01-09,7,Curd,Dairy,249,City Wholesale Market,11993.54
+2026-01-09,8,Pulao,Prepared Food,289,Local Supplier,21247.29
+2026-01-16,1,Rice,Grains,268,Green Basket Suppliers,11727.99
+2026-01-16,2,Chapati,Bakery,283,Fresh Foods Ltd,3430.3
+2026-01-16,3,Vegetable Curry,Cooked Food,214,Fresh Foods Ltd,11758.44
+2026-01-16,4,Dal,Cooked Food,189,City Wholesale Market,8671.36
+2026-01-16,5,Bread,Bakery,259,Green Basket Suppliers,7177.47
+2026-01-16,6,Milk,Dairy,324,Local Supplier,10438.8
+2026-01-16,7,Curd,Dairy,199,Local Supplier,9538.7
+2026-01-16,8,Pulao,Prepared Food,280,Green Basket Suppliers,21129.23
+2026-01-23,1,Rice,Grains,300,City Wholesale Market,13080.85
+2026-01-23,2,Chapati,Bakery,334,Local Supplier,4261.78
+2026-01-23,3,Vegetable Curry,Cooked Food,263,Green Basket Suppliers,15969.84
+2026-01-23,4,Dal,Cooked Food,205,City Wholesale Market,10694.15
+2026-01-23,5,Bread,Bakery,243,City Wholesale Market,6727.25
+2026-01-23,6,Milk,Dairy,363,Fresh Foods Ltd,11440.08
+2026-01-23,7,Curd,Dairy,194,Green Basket Suppliers,8813.27
+2026-01-23,8,Pulao,Prepared Food,232,Local Supplier,14764.69
+2026-01-30,1,Rice,Grains,247,Fresh Foods Ltd,10515.95
+2026-01-30,2,Chapati,Bakery,397,City Wholesale Market,4389.51
+2026-01-30,3,Vegetable Curry,Cooked Food,239,Fresh Foods Ltd,13252.3
+2026-01-30,4,Dal,Cooked Food,226,Fresh Foods Ltd,11202.92
+2026-01-30,5,Bread,Bakery,293,Green Basket Suppliers,8100.45
+2026-01-30,6,Milk,Dairy,312,Local Supplier,11514.37
+2026-01-30,7,Curd,Dairy,203,Fresh Foods Ltd,9982.46
+2026-01-30,8,Pulao,Prepared Food,190,Local Supplier,13441.58
+2026-02-06,1,Rice,Grains,283,City Wholesale Market,12280.78
+2026-02-06,2,Chapati,Bakery,403,Fresh Foods Ltd,5021.53
+2026-02-06,3,Vegetable Curry,Cooked Food,193,Fresh Foods Ltd,10661.83
+2026-02-06,4,Dal,Cooked Food,209,Green Basket Suppliers,10458.59
+2026-02-06,5,Bread,Bakery,246,Fresh Foods Ltd,7045.83
+2026-02-06,6,Milk,Dairy,394,Green Basket Suppliers,13659.95
+2026-02-06,7,Curd,Dairy,172,City Wholesale Market,7898.71
+2026-02-06,8,Pulao,Prepared Food,291,Green Basket Suppliers,21767.69
+2026-02-13,1,Rice,Grains,298,Green Basket Suppliers,12425.11
+2026-02-13,2,Chapati,Bakery,429,Fresh Foods Ltd,4840.04
+2026-02-13,3,Vegetable Curry,Cooked Food,240,Green Basket Suppliers,14937.44
+2026-02-13,4,Dal,Cooked Food,232,Fresh Foods Ltd,12716.7
+2026-02-13,5,Bread,Bakery,278,Fresh Foods Ltd,8346.49
+2026-02-13,6,Milk,Dairy,354,Green Basket Suppliers,12911.25
+2026-02-13,7,Curd,Dairy,233,City Wholesale Market,10658.64
+2026-02-13,8,Pulao,Prepared Food,297,City Wholesale Market,21514.5
+2026-02-20,1,Rice,Grains,345,Green Basket Suppliers,14841.84
+2026-02-20,2,Chapati,Bakery,344,Local Supplier,4146.77
+2026-02-20,3,Vegetable Curry,Cooked Food,177,Fresh Foods Ltd,9670.71
+2026-02-20,4,Dal,Cooked Food,155,Green Basket Suppliers,8137.79
+2026-02-20,5,Bread,Bakery,219,Green Basket Suppliers,6810.97
+2026-02-20,6,Milk,Dairy,271,Local Supplier,9846.56
+2026-02-20,7,Curd,Dairy,188,Local Supplier,8220.89
+2026-02-20,8,Pulao,Prepared Food,241,Fresh Foods Ltd,17687.9
+2026-02-27,1,Rice,Grains,300,Fresh Foods Ltd,12026.21
+2026-02-27,2,Chapati,Bakery,406,Green Basket Suppliers,5060.0
+2026-02-27,3,Vegetable Curry,Cooked Food,179,City Wholesale Market,10498.47
+2026-02-27,4,Dal,Cooked Food,236,Green Basket Suppliers,12899.37
+2026-02-27,5,Bread,Bakery,206,Green Basket Suppliers,5813.02
+2026-02-27,6,Milk,Dairy,380,City Wholesale Market,14177.76
+2026-02-27,7,Curd,Dairy,247,Green Basket Suppliers,11682.1
+2026-02-27,8,Pulao,Prepared Food,252,Fresh Foods Ltd,18614.25
+2026-03-06,1,Rice,Grains,355,Green Basket Suppliers,14054.63
+2026-03-06,2,Chapati,Bakery,437,Local Supplier,4915.7
+2026-03-06,3,Vegetable Curry,Cooked Food,193,Local Supplier,11295.59
+2026-03-06,4,Dal,Cooked Food,188,Green Basket Suppliers,8704.53
+2026-03-06,5,Bread,Bakery,270,Green Basket Suppliers,7299.15
+2026-03-06,6,Milk,Dairy,319,Fresh Foods Ltd,10137.69
+2026-03-06,7,Curd,Dairy,249,Local Supplier,11818.27
+2026-03-06,8,Pulao,Prepared Food,261,Green Basket Suppliers,18235.47
+2026-03-13,1,Rice,Grains,302,Green Basket Suppliers,11048.08
+2026-03-13,2,Chapati,Bakery,391,Fresh Foods Ltd,5120.84
+2026-03-13,3,Vegetable Curry,Cooked Food,229,Fresh Foods Ltd,13508.98
+2026-03-13,4,Dal,Cooked Food,198,Local Supplier,9601.82
+2026-03-13,5,Bread,Bakery,306,Green Basket Suppliers,8869.84
+2026-03-13,6,Milk,Dairy,294,City Wholesale Market,11312.07
+2026-03-13,7,Curd,Dairy,239,Local Supplier,9926.27
+2026-03-13,8,Pulao,Prepared Food,229,Fresh Foods Ltd,17326.82
+2026-03-20,1,Rice,Grains,307,Fresh Foods Ltd,13407.05
+2026-03-20,2,Chapati,Bakery,387,Green Basket Suppliers,4533.82
+2026-03-20,3,Vegetable Curry,Cooked Food,258,Local Supplier,15126.67
+2026-03-20,4,Dal,Cooked Food,198,Green Basket Suppliers,8958.92
+2026-03-20,5,Bread,Bakery,262,Green Basket Suppliers,7882.49
+2026-03-20,6,Milk,Dairy,326,City Wholesale Market,10369.07
+2026-03-20,7,Curd,Dairy,246,Fresh Foods Ltd,10672.17
+2026-03-20,8,Pulao,Prepared Food,199,Local Supplier,13003.36
+2026-03-27,1,Rice,Grains,354,Local Supplier,14519.47
+2026-03-27,2,Chapati,Bakery,309,Fresh Foods Ltd,3978.65
+2026-03-27,3,Vegetable Curry,Cooked Food,219,Local Supplier,12366.26
+2026-03-27,4,Dal,Cooked Food,224,City Wholesale Market,11528.3
+2026-03-27,5,Bread,Bakery,312,Fresh Foods Ltd,8468.47
+2026-03-27,6,Milk,Dairy,357,Local Supplier,11464.21
+2026-03-27,7,Curd,Dairy,165,Green Basket Suppliers,7511.26
+2026-03-27,8,Pulao,Prepared Food,255,Fresh Foods Ltd,19317.22
+2026-04-03,1,Rice,Grains,280,City Wholesale Market,11491.69
+2026-04-03,2,Chapati,Bakery,346,Local Supplier,4060.24
+2026-04-03,3,Vegetable Curry,Cooked Food,187,Local Supplier,11537.35
+2026-04-03,4,Dal,Cooked Food,205,Local Supplier,10661.81
+2026-04-03,5,Bread,Bakery,208,Local Supplier,5977.72
+2026-04-03,6,Milk,Dairy,352,Local Supplier,11781.66
+2026-04-03,7,Curd,Dairy,248,City Wholesale Market,10925.89
+2026-04-03,8,Pulao,Prepared Food,265,City Wholesale Market,17274.96
+2026-04-10,1,Rice,Grains,254,City Wholesale Market,10763.04
+2026-04-10,2,Chapati,Bakery,415,Green Basket Suppliers,5438.29
+2026-04-10,3,Vegetable Curry,Cooked Food,190,Green Basket Suppliers,12442.85
+2026-04-10,4,Dal,Cooked Food,151,Fresh Foods Ltd,6981.09
+2026-04-10,5,Bread,Bakery,200,City Wholesale Market,6044.58
+2026-04-10,6,Milk,Dairy,392,Green Basket Suppliers,12924.39
+2026-04-10,7,Curd,Dairy,231,Green Basket Suppliers,9795.7
+2026-04-10,8,Pulao,Prepared Food,293,Fresh Foods Ltd,19119.23
+2026-04-17,1,Rice,Grains,254,Green Basket Suppliers,9538.87
+2026-04-17,2,Chapati,Bakery,304,Local Supplier,3904.37
+2026-04-17,3,Vegetable Curry,Cooked Food,272,City Wholesale Market,16792.22
+2026-04-17,4,Dal,Cooked Food,156,Local Supplier,7411.07
+2026-04-17,5,Bread,Bakery,223,City Wholesale Market,7294.16
+2026-04-17,6,Milk,Dairy,303,Fresh Foods Ltd,9756.7
+2026-04-17,7,Curd,Dairy,219,Fresh Foods Ltd,9495.86
+2026-04-17,8,Pulao,Prepared Food,241,Green Basket Suppliers,17522.73
+2026-04-24,1,Rice,Grains,245,Green Basket Suppliers,10403.09
+2026-04-24,2,Chapati,Bakery,433,Fresh Foods Ltd,4681.42
+2026-04-24,3,Vegetable Curry,Cooked Food,200,Fresh Foods Ltd,12509.28
+2026-04-24,4,Dal,Cooked Food,207,Green Basket Suppliers,11054.03
+2026-04-24,5,Bread,Bakery,216,Green Basket Suppliers,6969.74
+2026-04-24,6,Milk,Dairy,319,Green Basket Suppliers,11778.55
+2026-04-24,7,Curd,Dairy,206,Local Supplier,8668.88
+2026-04-24,8,Pulao,Prepared Food,259,Green Basket Suppliers,19430.7
+2026-05-01,1,Rice,Grains,243,Fresh Foods Ltd,9259.73
+2026-05-01,2,Chapati,Bakery,421,Local Supplier,5281.79
+2026-05-01,3,Vegetable Curry,Cooked Food,268,Local Supplier,17085.46
+2026-05-01,4,Dal,Cooked Food,202,Fresh Foods Ltd,10920.73
+2026-05-01,5,Bread,Bakery,266,City Wholesale Market,8225.64
+2026-05-01,6,Milk,Dairy,272,City Wholesale Market,8993.18
+2026-05-01,7,Curd,Dairy,234,Green Basket Suppliers,9758.95
+2026-05-01,8,Pulao,Prepared Food,247,Local Supplier,16933.08
+2026-05-08,1,Rice,Grains,292,Fresh Foods Ltd,12492.89
+2026-05-08,2,Chapati,Bakery,408,Fresh Foods Ltd,5147.86
+2026-05-08,3,Vegetable Curry,Cooked Food,189,Fresh Foods Ltd,10612.3
+2026-05-08,4,Dal,Cooked Food,235,Fresh Foods Ltd,12304.41
+2026-05-08,5,Bread,Bakery,258,Green Basket Suppliers,7028.57
+2026-05-08,6,Milk,Dairy,364,Fresh Foods Ltd,11626.17
+2026-05-08,7,Curd,Dairy,195,Local Supplier,9070.87
+2026-05-08,8,Pulao,Prepared Food,249,Green Basket Suppliers,17039.89
+2026-05-15,1,Rice,Grains,348,Local Supplier,12639.09
+2026-05-15,2,Chapati,Bakery,382,Local Supplier,4770.79
+2026-05-15,3,Vegetable Curry,Cooked Food,229,Green Basket Suppliers,14660.23
+2026-05-15,4,Dal,Cooked Food,173,Fresh Foods Ltd,8436.62
+2026-05-15,5,Bread,Bakery,245,Local Supplier,7374.49
+2026-05-15,6,Milk,Dairy,306,Fresh Foods Ltd,10745.07
+2026-05-15,7,Curd,Dairy,193,Green Basket Suppliers,8662.18
+2026-05-15,8,Pulao,Prepared Food,244,Local Supplier,17086.28
+2026-05-22,1,Rice,Grains,243,Fresh Foods Ltd,9195.1
+2026-05-22,2,Chapati,Bakery,359,Green Basket Suppliers,4059.44
+2026-05-22,3,Vegetable Curry,Cooked Food,194,Green Basket Suppliers,11877.5
+2026-05-22,4,Dal,Cooked Food,223,Fresh Foods Ltd,10959.59
+2026-05-22,5,Bread,Bakery,239,Local Supplier,7143.49
+2026-05-22,6,Milk,Dairy,321,Fresh Foods Ltd,11439.01
+2026-05-22,7,Curd,Dairy,222,City Wholesale Market,9035.85
+2026-05-22,8,Pulao,Prepared Food,194,Fresh Foods Ltd,12587.91
+2026-05-29,1,Rice,Grains,294,Fresh Foods Ltd,10715.51
+2026-05-29,2,Chapati,Bakery,317,Fresh Foods Ltd,3816.66
+2026-05-29,3,Vegetable Curry,Cooked Food,217,Local Supplier,14005.64
+2026-05-29,4,Dal,Cooked Food,215,Green Basket Suppliers,11711.6
+2026-05-29,5,Bread,Bakery,225,City Wholesale Market,7245.86
+2026-05-29,6,Milk,Dairy,275,City Wholesale Market,9819.11
+2026-05-29,7,Curd,Dairy,236,Fresh Foods Ltd,10881.7
+2026-05-29,8,Pulao,Prepared Food,248,Fresh Foods Ltd,18138.38
+2026-06-05,1,Rice,Grains,271,City Wholesale Market,11049.28
+2026-06-05,2,Chapati,Bakery,286,City Wholesale Market,3353.38
+2026-06-05,3,Vegetable Curry,Cooked Food,186,Fresh Foods Ltd,11210.69
+2026-06-05,4,Dal,Cooked Food,231,City Wholesale Market,12304.25
+2026-06-05,5,Bread,Bakery,272,Fresh Foods Ltd,8120.62
+2026-06-05,6,Milk,Dairy,342,Local Supplier,12874.34
+2026-06-05,7,Curd,Dairy,211,Local Supplier,8722.47
+2026-06-05,8,Pulao,Prepared Food,265,Local Supplier,20022.75
+2026-06-12,1,Rice,Grains,329,City Wholesale Market,13218.02
+2026-06-12,2,Chapati,Bakery,336,Local Supplier,4191.38
+2026-06-12,3,Vegetable Curry,Cooked Food,220,City Wholesale Market,13964.43
+2026-06-12,4,Dal,Cooked Food,184,Local Supplier,9062.9
+2026-06-12,5,Bread,Bakery,230,Fresh Foods Ltd,7465.92
+2026-06-12,6,Milk,Dairy,262,City Wholesale Market,8725.81
+2026-06-12,7,Curd,Dairy,160,Local Supplier,7312.3
+2026-06-12,8,Pulao,Prepared Food,203,Local Supplier,13854.83
+2026-06-19,1,Rice,Grains,252,Green Basket Suppliers,9896.23
+2026-06-19,2,Chapati,Bakery,292,City Wholesale Market,3610.22
+2026-06-19,3,Vegetable Curry,Cooked Food,201,City Wholesale Market,12215.98
+2026-06-19,4,Dal,Cooked Food,205,City Wholesale Market,10772.69
+2026-06-19,5,Bread,Bakery,249,City Wholesale Market,6990.01
+2026-06-19,6,Milk,Dairy,333,City Wholesale Market,11081.06
+2026-06-19,7,Curd,Dairy,189,Green Basket Suppliers,8971.4
+2026-06-19,8,Pulao,Prepared Food,235,Fresh Foods Ltd,17617.95
+2026-06-26,1,Rice,Grains,314,Fresh Foods Ltd,12425.85
+2026-06-26,2,Chapati,Bakery,390,Fresh Foods Ltd,4305.86
+2026-06-26,3,Vegetable Curry,Cooked Food,228,Green Basket Suppliers,14503.14
+2026-06-26,4,Dal,Cooked Food,205,Local Supplier,9554.51
+2026-06-26,5,Bread,Bakery,315,Local Supplier,10025.26
+2026-06-26,6,Milk,Dairy,373,City Wholesale Market,14166.93
+2026-06-26,7,Curd,Dairy,201,Local Supplier,8616.43
+2026-06-26,8,Pulao,Prepared Food,232,Local Supplier,16969.16
+2026-07-03,1,Rice,Grains,350,City Wholesale Market,14319.1
+2026-07-03,2,Chapati,Bakery,360,Local Supplier,4705.1
+2026-07-03,3,Vegetable Curry,Cooked Food,261,City Wholesale Market,15468.86
+2026-07-03,4,Dal,Cooked Food,168,Green Basket Suppliers,7887.17
+2026-07-03,5,Bread,Bakery,294,Fresh Foods Ltd,9023.2
+2026-07-03,6,Milk,Dairy,351,Green Basket Suppliers,11644.35
+2026-07-03,7,Curd,Dairy,160,Fresh Foods Ltd,6605.05
+2026-07-03,8,Pulao,Prepared Food,221,City Wholesale Market,15015.58
+2026-07-10,1,Rice,Grains,278,Fresh Foods Ltd,11159.46
+2026-07-10,2,Chapati,Bakery,396,Local Supplier,5150.39
+2026-07-10,3,Vegetable Curry,Cooked Food,232,Green Basket Suppliers,13495.37
+2026-07-10,4,Dal,Cooked Food,223,Fresh Foods Ltd,11387.19
+2026-07-10,5,Bread,Bakery,223,City Wholesale Market,6790.23
+2026-07-10,6,Milk,Dairy,289,City Wholesale Market,10127.62
+2026-07-10,7,Curd,Dairy,213,Green Basket Suppliers,9278.21
+2026-07-10,8,Pulao,Prepared Food,203,Green Basket Suppliers,15278.91
+2026-07-17,1,Rice,Grains,334,Green Basket Suppliers,13878.88
+2026-07-17,2,Chapati,Bakery,434,City Wholesale Market,5489.2
+2026-07-17,3,Vegetable Curry,Cooked Food,254,City Wholesale Market,15793.5
+2026-07-17,4,Dal,Cooked Food,230,Local Supplier,11458.53
+2026-07-17,5,Bread,Bakery,230,City Wholesale Market,7084.45
+2026-07-17,6,Milk,Dairy,399,Fresh Foods Ltd,14803.35
+2026-07-17,7,Curd,Dairy,199,Green Basket Suppliers,8984.56
+2026-07-17,8,Pulao,Prepared Food,191,Green Basket Suppliers,12696.84
+2026-07-24,1,Rice,Grains,237,Green Basket Suppliers,8676.15
+2026-07-24,2,Chapati,Bakery,428,City Wholesale Market,4944.81
+2026-07-24,3,Vegetable Curry,Cooked Food,197,Green Basket Suppliers,11070.1
+2026-07-24,4,Dal,Cooked Food,217,Fresh Foods Ltd,10847.83
+2026-07-24,5,Bread,Bakery,223,Fresh Foods Ltd,7188.73
+2026-07-24,6,Milk,Dairy,281,Fresh Foods Ltd,10493.83
+2026-07-24,7,Curd,Dairy,240,Green Basket Suppliers,10056.95
+2026-07-24,8,Pulao,Prepared Food,202,Local Supplier,14637.2
+2026-07-31,1,Rice,Grains,314,Local Supplier,13223.78
+2026-07-31,2,Chapati,Bakery,364,Local Supplier,4672.02
+2026-07-31,3,Vegetable Curry,Cooked Food,213,Green Basket Suppliers,12760.42
+2026-07-31,4,Dal,Cooked Food,238,Green Basket Suppliers,11878.12
+2026-07-31,5,Bread,Bakery,318,Green Basket Suppliers,9345.15
+2026-07-31,6,Milk,Dairy,362,Fresh Foods Ltd,11540.21
+2026-07-31,7,Curd,Dairy,236,City Wholesale Market,11553.83
+2026-07-31,8,Pulao,Prepared Food,193,Green Basket Suppliers,13222.82
